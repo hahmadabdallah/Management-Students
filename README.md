@@ -26,21 +26,21 @@ On the Sign in method tab, enable the Email/password sign-in method and click Sa
 
 
 
-### code
-Open /src/environments/environment.ts and add your Firebase configuration:
-$ export const environment = {
-  production: false,
-  firebase: {
-    apiKey: '<your-key>',
-    authDomain: '<your-project-authdomain>',
-    databaseURL: '<your-database-URL>',
-    projectId: '<your-project-id>',
-    storageBucket: '<your-storage-bucket>',
-    messagingSenderId: '<your-messaging-sender-id>'
-  }
-};
+## code
+   ### Open /src/environments/environment.ts and add your Firebase configuration:
+      $ export const environment = {
+        production: false,
+        firebase: {
+          apiKey: '<your-key>',
+          authDomain: '<your-project-authdomain>',
+          databaseURL: '<your-database-URL>',
+          projectId: '<your-project-id>',
+          storageBucket: '<your-storage-bucket>',
+          messagingSenderId: '<your-messaging-sender-id>'
+        }
+      };
 
-  <b>Clone the app, install package dependencies, and start the dev server @ localhost:4200</b>
+  ### Clone the app, install package dependencies, and start the dev server @ localhost:4200
       $ git clone https://github.com/r-park/todo-angular-firebase.git
       $ cd 
       $ npm install
