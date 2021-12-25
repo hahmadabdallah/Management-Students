@@ -1,7 +1,7 @@
 # project-management-students 
 
 ## Used technologies:
-
+ <b> Front End  </b>
     <ul>
     <li>Angular 2</li>
       <li>AngularFire2</li>
