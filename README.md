@@ -13,7 +13,7 @@
    ### Install
    $ npm install firebase @angular/fire --save
  ## Deploying to Firebase:
-Prerequisites
+
 <ul>
   <li>Create a free Firebase account at https://firebase.google.com</li>
   <li>Create a project from your Firebase account console</li>
@@ -25,8 +25,9 @@ In the Firebase console, open the Auth section.
 On the Sign in method tab, enable the Email/password sign-in method and click Save.
 
 
+
+### code
 Open /src/environments/environment.ts and add your Firebase configuration:
-## code
 $ export const environment = {
   production: false,
   firebase: {
