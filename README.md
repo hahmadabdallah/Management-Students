@@ -28,7 +28,7 @@ On the Sign in method tab, enable the Email/password sign-in method and click Sa
 
 ## code
    ### Open /src/environments/environment.ts and add your Firebase configuration:
-      $ export const environment = {
+       export const environment = {
         production: false,
         firebase: {
           apiKey: '<your-key>',
