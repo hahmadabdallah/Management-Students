@@ -1,27 +1,54 @@
-# ProjetNewSytem
+# project-management-students 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+## Used technologies:
 
-## Development server
+    <ul>
+    <li>Angular 2</li>
+      <li>AngularFire2</li>
+        <li>Firebase SDK</li>
+          <li>Bootstrap 4</li>
+    </ul>
+  
+## Running Steps
+   ###Install
+   npm install firebase @angular/fire --save
+   Deploying to Firebase:
+Prerequisites
+Create a free Firebase account at https://firebase.google.com
+Create a project from your Firebase account console
+Configure the authentication providers for your Firebase project from your Firebase account console
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Enable Email/Password sign-in:
 
-## Code scaffolding
+In the Firebase console, open the Auth section.
+On the Sign in method tab, enable the Email/password sign-in method and click Save.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Open /src/environments/environment.ts and add your Firebase configuration:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+export const environment = {
+  production: false,
+  firebase: {
+    apiKey: '<your-key>',
+    authDomain: '<your-project-authdomain>',
+    databaseURL: '<your-database-URL>',
+    projectId: '<your-project-id>',
+    storageBucket: '<your-storage-bucket>',
+    messagingSenderId: '<your-messaging-sender-id>'
+  }
+};
 
-## Running unit tests
+Clone the app, install package dependencies, and start the dev server @ localhost:4200
+$ git clone https://github.com/r-park/todo-angular-firebase.git
+$ cd 
+$ npm install
+$ npm serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+      
+ ## Application Features:
+   <ul>
+    <li>register account </li>
+    <li>Login by email ,Facebook,gmail</li>
+    <li>Add,view delete ,update students </li>
+    <li>Export PDF</li>
+   </ul>
