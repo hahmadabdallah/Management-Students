@@ -41,7 +41,7 @@ On the Sign in method tab, enable the Email/password sign-in method and click Sa
       };
 
   ### Clone the app, install package dependencies, and start the dev server @ localhost:4200
-      $ git clone https://github.com/r-park/todo-angular-firebase.git
+      $ git clone https://github.com/hahmadabdallah/angular2-firebase-management-students.git
       $ cd 
       $ npm install
       $ npm serve
